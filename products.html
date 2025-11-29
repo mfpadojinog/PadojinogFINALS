@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fresh Reads | Books</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> </head>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    header {
+      background: #446386;
+      color: #ffffff;
+      padding: 18px 30px;
+      box-shadow: 0 3px 6px #d1e4f7(0,0,0,0.15);
+
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav div a {
+      color: #e5edf3;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      background-color:#2f465f;
+      padding:10px 20px   
+    }
+
+    nav div a:hover {
+        background-color: #628fc2;
+    }
+
+    .library {
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('bookshelf.jpg');
+      background-size: cover;
+      background-position: center;
+      padding: 90px 20px;
+      color: rgb(22, 22, 22);
+      text-align: center;
+      
+    }
+
+    .library h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .card img {
+      height: 260px;
+      object-fit: cover;
+      height: 100%;
+    }
+
+    .card {
+      border-radius: 10px;
+      overflow: hidden;
+      transition: 0.2s;
+      height: 260px;
+    }
+    .button:hover {
+      opacity: 0.20;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2c3e50;
+      color: #fff;
+      margin-top: 40px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .library{
+      background: #e1ecf3;  
+    }
+
+    .btn-dark {
+      background-color: #446386;
+      color: white; 
+     border: none; 
+    }
+
+    .btn-dark:hover {
+      background-color: #628fc2;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h2 class="m-0">Fresh Reads</h2>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="products.html">Store</a>
+        <a href="contactUS.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+<section class="library" style="color:#446386">
+    <h1>Fresh Reads Bookstore</h1>
+    <h3> Step closer, books are the safest way to travel.</h3>
+</section>
+
+<br>
+<br>
+  <section class="py-8">
+    <div class="container">
+      <h2 class="text-center mb-5" style="color:#446386">Ruinous Love Trilogy Series By Brynne Weaver</h2>
+      <div class="row g-4 justify-content-center">
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="BB.jpg" class="card-img-top" alt="BB">
+            <div class="card-body">
+              <h5 class="card-title">Butcher and Blackbird</h5>
+              <p class="card-text">Book #1 of Ruinous Love Trilogy</p>
+              <p class="card-text"> ₱167</p>
+              <a href="#" class="btn btn-dark w-100">Select</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="LL.jpg" class="card-img-top" alt="LL">
+            <div class="card-body">
+              <h5 class="card-title">Leather and Lark</h5>
+              <p class="card-text">Book #2 of Ruinous Love Trilogy</p>
+              <p class="card-text"> ₱167</p>
+              <a href="#" class="btn btn-dark w-100">Select</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="SS.jpg" class="card-img-top" alt="SS">
+            <div class="card-body">
+              <h5 class="card-title">Scythe and Sparrow</h5>
+              <p class="card-text">Book #3 of Ruinous Love Trilogy</p>
+              <p class="card-text"> ₱167</p>
+              <a href="#" class="btn btn-dark w-100">Select</a>
+            </div>
+          </div>
+        </div>
+      </section>
+            <br>
+<br>
+
+<section class="twisted">
+    <div class="container">
+      <h2 class="text-center mb-5" style="color:#446386">Twisted Series By Ana Huang</h2>
+      <div class="row g-4">
+
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="card h-100 text-center shadow-sm">
+              <img src="TL.jpg" class="card-img-top" alt="Twisted Love">
+              <div class="card-body">
+                <h5 class="card-title">Twisted Love</h5>
+                <p class="card-text">Book #1 of the Twisted Series</p>
+                <p class="card-text"> ₱170</p>
+              <a href="#" class="btn btn-dark w-100">Select</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="TG.jpg" class="card-img-top" alt="Twisted Games">
+            <div class="card-body">
+              <h5 class="card-title">Twisted Games</h5>
+              <p class="card-text">Book #2 of the Twisted Series</p>
+              <p class="card-text"> ₱170</p>
+              <a href="#" class="btn btn-dark w-100">Select</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="TH.jpg" class="card-img-top" alt="Twisted Hate">
+            <div class="card-body">
+              <h5 class="card-title">Twisted Hate</h5>
+              <p class="card-text">Book #3 of the Twisted Series</p>
+              <p class="card-text"> ₱170</p>
+              <a href="#" class="btn btn-dark w-100">Select</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="TLIES.jpg" class="card-img-top" alt="Twisted Lies">
+            <div class="card-body">
+              <h5 class="card-title">Twisted Lies</h5>
+              <p class="card-text">Book #4 of the Twisted Series</p>
+              <p class="card-text"> ₱170</p>
+              <a href="#" class="btn btn-dark w-100">Select</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+<br>
+  <section class="py-8">
+    <div class="container">
+      <h2 class="text-center mb-5" style="color:#446386">Rose Hill Series by Elsie Silver</h2>
+      <div class="row g-4">
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="WL.jpg" class="card-img-top" alt="WL">
+            <div class="card-body">
+              <h5 class="card-title">Wild Love</h5>
+              <p class="card-text">Book #1 of Rose Hill Series</p>
+              <p class="card-text"> ₱160</p>
+              <a href="#" class="btn btn-dark w-100">Select</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="WE.jpg" class="card-img-top" alt="WE">
+            <div class="card-body">
+              <h5 class="card-title">Wild Eyes</h5>
+              <p class="card-text">Book #2 of Rose Hill Series</p>
+              <p class="card-text"> ₱160</p>
+              <a href="#" class="btn btn-dark w-100">Select</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="WS.jpg" class="card-img-top" alt="WS">
+            <div class="card-body">
+              <h5 class="card-title">Wild Side</h5>
+              <p class="card-text">Book #3 of Rose Hill Series</p>
+              <p class="card-text"> ₱160</p>
+              <a href="#" class="btn btn-dark w-100">Select</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="WC.jpg" class="card-img-top" alt="WC">
+            <div class="card-body">
+              <h5 class="card-title">Wild Card</h5>
+              <p class="card-text">Book #4 of Rose Hill Series</p>
+              <p class="card-text"> ₱160</p>
+              <a href="#" class="btn btn-dark w-100">Select</a>
+            </div>
+          </div>
+        </div>
+      </section>
+            <br>
+<br>
+  <section class="py-8">
+    <div class="container">
+      <h2 class="text-center mb-5" style="color:#446386">Reynolds Protective Series by Rebecca Sharp</h2>
+      <div class="row g-4">
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="ARCH.jpg" class="card-img-top" alt="ARCH">
+            <div class="card-body">
+              <h5 class="card-title">Archer</h5>
+              <p class="card-text">Book #1 of Reynolds Protective Series</p>
+              <p class="card-text"> ₱180</p>
+              <a href="#" class="btn btn-dark w-100">Select</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="HUNT.jpg" class="card-img-top" alt="HUNT">
+            <div class="card-body">
+              <h5 class="card-title">Hunter</h5>
+              <p class="card-text">Book #2 of Reynolds Protective Series</p>
+              <p class="card-text"> ₱180</p>
+              <a href="#" class="btn btn-dark w-100">Select</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="GUN.jpg" class="card-img-top" alt="GUN">
+            <div class="card-body">
+              <h5 class="card-title">Gunner</h5>
+              <p class="card-text">Book #3 of Reynolds Protective Series</p>
+              <p class="card-text"> ₱180</p>
+              <a href="#" class="btn btn-dark w-100">Select</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 text-center shadow-sm">
+            <img src="RANGE.jpg" class="card-img-top" alt="RANGE">
+            <div class="card-body">
+              <h5 class="card-title">Ranger</h5>
+              <p class="card-text">Book #4 of Reynolds Protective Series</p>
+              <p class="card-text"> ₱180</p>
+              <a href="#" class="btn btn-dark w-100">Select</a>
+            </div>
+          </div>
+        </div>
+      </section>
+<br>
+
+  <footer>
+    <p>&copy; 2025 Fresh Reads Bookstore. All rights reserved.</p>
+    <P> contacts us on 09*******</P>
+    <p> Any inquiries? email FreshReadsBook@gmail.com</p>
+  </footer>
+
+</body>
+</html>
